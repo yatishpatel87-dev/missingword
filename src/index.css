@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .grid-cols-20 {
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-certificate-canvas,
+  #printable-certificate-canvas * {
+    visibility: visible;
+  }
+  #printable-certificate-canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px;
+    box-shadow: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

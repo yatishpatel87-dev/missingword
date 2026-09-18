@@ -1,0 +1,6 @@
+{
+  "name": "Missing Word Detective",
+  "description": "An interactive English & Gujarati sentence missing word detective challenge with levels, 20 challenges, timer, lives, score, streak combo, certificates, and teacher mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
